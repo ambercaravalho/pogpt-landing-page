@@ -1,0 +1,23 @@
+name: Apache Dockerfile Build
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    runs-on: httpd:latest
+    
+    steps:
+    - uses: actions/checkout@v4
+    - name: Copy files from main to Dockerfile
+      run: |
+        cp -r ./ /usr/local/apache2/htdocs/
+    - name: Build Docker image
+      run: docker build . --file Dockerfile --tag pogpt-landing-page
+    - name: Commit and push changes to main
+      uses: stefanzweifel/git-auto-commit-action@v5
+      with:
+        commit_message: "Auto bump dependencies"
