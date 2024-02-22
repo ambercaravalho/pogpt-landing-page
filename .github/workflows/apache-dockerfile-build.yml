@@ -8,7 +8,7 @@ on:
 
 jobs:
   build:
-    runs-on: httpd:latest
+    runs-on: httpd-latest
     
     steps:
     - uses: actions/checkout@v4
