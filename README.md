@@ -2,7 +2,7 @@
 
 A modern, responsive webpage designed to showcase the integration and application of various technologies within DoD networks. 
 
-Visit the [POGPT Suite repo](https://github.com/Chair4ce/POGPTSuite) for more information on the actual project this page promotes.
+Visit the [POGPT Suite repo](https://github.com/ambercaravalho/pogpt-suite) for more information on the actual project this page promotes.
 
 ### Step 1: Clone the Repository
 
@@ -10,6 +10,9 @@ Clone this GitHub repository to obtain the webpage source files:
 
 ```bash
 git clone https://github.com/ambercaravalho/pogpt-landing-page.git
+```
+
+```bash
 cd pogpt-landing-page
 ```
 
@@ -31,7 +34,7 @@ docker run -d --restart unless-stopped -p 80:80 pogpt-landing-page
 
 After executing this command, your webpage will be accessible at `http://localhost`.
 
-## Conclusion
+## More Information
 
 For more information on Docker and Apache, please refer to their official documentation:
 
