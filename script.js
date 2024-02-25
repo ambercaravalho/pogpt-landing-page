@@ -1,12 +1,11 @@
 document.addEventListener('DOMContentLoaded', function() {
-    const presents = document.getElementById('presents');
     const mainTitle = document.getElementById('mainTitle');
     const feature1 = document.getElementById('feature1');
     const feature2 = document.getElementById('feature2');
     const feature3 = document.getElementById('feature3');
     const continueButton = document.getElementById('continueButton');
     
-    const elements = [presents, mainTitle, feature1, feature2, feature3];
+    const elements = [mainTitle, feature1, feature2, feature3];
     
     let index = 0;
     

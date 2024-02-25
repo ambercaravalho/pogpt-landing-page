@@ -158,8 +158,8 @@ body, html {
     z-index: 2;
 }
 
-.text, .main-title, .features div {
-    font-size: 5em; /* Significantly larger text */
+.main-title, .features div {
+    font-size: 4.5em; /* Significantly larger text */
     visibility: hidden;
     margin: 0.5em 0; /* Ensure spacing between text elements */
     opacity: 0; /* Start hidden */
