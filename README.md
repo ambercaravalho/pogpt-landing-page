@@ -1,35 +1,15 @@
 # POGPT Suite Landing Page
 
-A modern, responsive webpage designed to showcase the integration and application of various LLM technologies within DoD networks. 
+![Landing Page Screenshot](landing_page_screenshot.png)
 
-Visit the [Open WebUI repo](https://github.com/open-webui/open-webui)) for more information on the project this concept relies on (and this site promotes).
+## Overview 🤖
 
-### Step 1: Clone the Repository
+The Portable Operational GPT Suite is a containerized large language model solution built during the Air Force's BRAVO 11 Hackathon. Built in early 2024, this suite allows members to analyze and derive insights from diverse datasets.
 
-Clone this repo to obtain the source files:
+Visit the [Open WebUI repo](https://github.com/open-webui/open-webui) for more information on the project this concept relies on (and this site promotes).
 
-```bash
-git clone https://github.com/ambercaravalho/pogpt-landing-page.git
-```
+### [Visit the Live Site ➡️](https://pogpt.ambercaravalho.com/)
 
-```bash
-cd pogpt-landing-page
-```
+## Methodology 🤔
 
-### Step 2: Build the Docker Image: 
-
-Build the Docker image:
-
-```bash
-docker build -t pogpt-landing-page .
-```
-
-### Step 3: Run the Site in Docker
-
-Run the Docker container, choosing what port to map your container to:
-
-```bash
-docker run -d --restart unless-stopped -p <SELECTED PORT>:80 pogpt-landing-page
-```
-
-After executing this command, the webpage will be accessible at `http://localhost:<SELECTED PORT>`.
+This page serves as a foundational step in demystifying the use of Large Language Models for the Department of Defense, aiming to illuminate their potential in revolutionizing data analysis, enhancing decision-making, and bolstering security protocols. Crafted with clarity and accessibility at its core, this initiative underscores the importance of LLMs in a defense context, fostering a deeper understanding and encouraging wider adoption.
