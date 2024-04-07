@@ -1,6 +1,7 @@
 # POGPT Suite Landing Page
 
-![Landing Page Screenshot](landing_page_screenshot.png)
+<p align="center">
+<img src="https://github.com/ambercaravalho/pogpt-landing-page/raw/main/landing_page_screenshot.png" width="600">
 
 ## Overview 🤖
 
